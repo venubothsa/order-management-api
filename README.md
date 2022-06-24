@@ -12,17 +12,6 @@ Here i consider this application as large scale application and follow **CQRS(Co
 4. [Apache Kafka](https://kafka.apache.org/downloads) 
 5. Mongo DB
 
-## Run Commands
-
-To Run Kafka in local system
-
-```
-bin\windows>zookeeper-server-start.bat D:\tools\kafka\config\zookeeper.properties
-bin\windows>kafka-server-start.bat D:\tools\kafka\config\server.properties
-```
-To Run Axon Server 
-
-
 
 ## What is Axon Server
 Axon Server is zero configuration message router and an event store. It serves two purposes 
@@ -35,6 +24,16 @@ AxonServer-4.5.12>java -jar axonserver.jar
 ```
 We can see Axon Server dashboard on port number http://localhost:8024
 ![axonscreenshot](https://github.com/venubothsa/order-management-api/blob/master/image.png)
+
+## What is Kafka
+Apache Kafka is an open-source distributed event streaming platform.
+
+To Run Kafka in local system
+
+```
+bin\windows>zookeeper-server-start.bat D:\tools\kafka\config\zookeeper.properties
+bin\windows>kafka-server-start.bat D:\tools\kafka\config\server.properties
+```
 
 
 
