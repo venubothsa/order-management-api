@@ -34,6 +34,7 @@ To Run
 AxonServer-4.5.12>java -jar axonserver.jar
 ```
 We can see Axon Server dashboard on port number http://localhost:8024
+![axonscreenshot](https://github.com/venubothsa/order-management-api/blob/master/image.png)
 
 
 
