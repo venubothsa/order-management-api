@@ -1,0 +1,36 @@
+{
+  "orderId": "d6fca9af-bf52-467d-9fae-bdd70f7bea87",
+  "customerId": "1",
+  "createdDate": null,
+  "updatedDate": "2022-06-22T19:51:15.104584400",
+  "orderAmount": 100.0,
+  "status": "PLACED",
+  "invoiceNumber": "IN-2323",
+  "createdBy": "a",
+  "updatedBy": "b",
+  "product": {
+    "productId": "P1",
+    "qty": 2
+  },
+  "shippingAddress": {
+    "shippingFirstName": "Venu",
+    "shippingLastName": "Bothsa",
+    "addressLine1": "4, KPHB",
+    "addressLine2": "",
+    "city": "Hyderabad",
+    "state": "Telengana",
+    "zipCode": 500026,
+    "country": "India"
+  },
+  "billingAddress": {
+    "billingFirstName": "Venu",
+    "billingLastName": "Bothsa",
+    "addressLine1": "4, KPHB",
+    "addressLine2": "",
+    "city": "Hyderabad",
+    "state": "Telengana",
+    "zipCode": 500026,
+    "country": "India"
+  },
+  "transactionId": null
+}

@@ -1,0 +1,34 @@
+server:
+  servlet:
+    context-path: /order-query-service
+  port: 8081
+spring:
+  application:
+    name: Order-Service
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: orders_db
+
+management:
+  health:
+    jms:
+      enabled: true
+    mongo:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    jmx:
+      exposure:
+        include: "*"
+  endpoint:
+    metrics:
+      enabled: true
+    show-details: always
+
+
+
+
