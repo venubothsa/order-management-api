@@ -1,0 +1,32 @@
+{
+  "customerId": "2002",
+  "orderAmount": 100,
+  "status": "PENDING",
+  "invoiceNumber": "IN-232324",
+  "createdBy": "a",
+  "updatedBy": "b",
+  "product": {
+    "productId": "P1",
+    "qty": "2"
+  },
+  "shippingAddress": {
+    "shippingFirstName": "Venu",
+    "shippingLastName": "Bothsa",
+    "addressLine1": "4, KPHB",
+    "addressLine2": "",
+    "city": "Hyderabad",
+    "state": "Telengana",
+    "zipCode": 500026,
+    "country": "India"
+  },
+  "billingAddress": {
+    "billingFirstName": "Venu",
+    "billingLastName": "Bothsa",
+    "addressLine1": "4, KPHB",
+    "addressLine2": "",
+    "city": "Hyderabad",
+    "state": "Telengana",
+    "zipCode": 500026,
+    "country": "India"
+  }
+}
