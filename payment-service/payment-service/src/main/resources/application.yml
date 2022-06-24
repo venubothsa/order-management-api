@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Payment Service
+server:
+  port: 9090
