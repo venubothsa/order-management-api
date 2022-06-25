@@ -2,7 +2,7 @@
 
 Order management api is an appilcation which will do create, update and retrieve orders. <br>
 Here i consider this application as large scale application, so i followed **CQRS(Command Query Responsibility Segregation) design pattern**.
-![ordermanagemetdesign](https://github.com/venubothsa/order-management-api/blob/master/order_management.png)
+![ordermanagemetdesign](https://github.com/venubothsa/order-management-api/blob/master/cqrs_design.png)
 
 
 ## Prerequisites
